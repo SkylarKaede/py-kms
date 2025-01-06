@@ -28,11 +28,13 @@ This version of _py-kms_ is for itself a fork of the original implementation by 
 	- Windows Server 2016
 	- Windows Server 2019
 	- Windows Server 2022
+	- Windows Server 2025
 	- Microsoft Office 2010 ( Volume License )
 	- Microsoft Office 2013 ( Volume License )
 	- Microsoft Office 2016 ( Volume License )
 	- Microsoft Office 2019 ( Volume License )
 	- Microsoft Office 2021 ( Volume License )
+	- Microsoft Office 2024 ( Volume License )
   - It's written in Python (tested with Python 3.10.1).
   - Supports execution by `Docker`, `systemd` and many more...
   - Uses `sqlite` for persistent data storage (with a simple web-based explorer).

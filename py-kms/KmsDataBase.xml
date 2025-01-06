@@ -107,6 +107,10 @@
 			<Activate KmsItem="ef6cfc9f-8c5d-44ac-9aad-de6a2ea0ae03" />
 		</CsvlkItem>
 
+		<CsvlkItem DisplayName="Windows Server 2025" VlmcsdIndex="0" GroupId="206" MinKeyId="551000000" MaxKeyId="570999999" IniFileName="Windows" EPid="06401-00206-566-174993-03-1033-9600.0000-2802018" Id="c052f164-cdf6-409a-a0cb-853ba0f0f55a" InvalidWinBuild="[0,1,2]">
+			<Activate KmsItem="c052f164-cdf6-409a-a0cb-853ba0f0f55a" />
+		</CsvlkItem>
+
 		<CsvlkItem DisplayName="Windows Server 2019" VlmcsdIndex="0" GroupId="206" MinKeyId="551000000" MaxKeyId="570999999" IniFileName="Windows" EPid="06401-00206-566-174993-03-1033-9600.0000-2802018" Id="2e7a9ad1-a849-4b56-babe-17d5a29fe4b4" InvalidWinBuild="[0,1,2]">
 			<Activate KmsItem="58e2134f-8e11-4d17-9cb2-91069c151148" />
 			<Activate KmsItem="7fde5219-fbfa-484a-82c9-34d1ad53e856" />
@@ -568,6 +572,11 @@
 
 		<AppItem DisplayName="Windows" VlmcsdIndex="0" Id="55c92734-d682-4d71-983e-d6ec3f16059f" MinActiveClients="50">
 
+			<KmsItem DisplayName="Windows Server 2025" Id="c052f164-cdf6-409a-a0cb-853ba0f0f55a" DefaultKmsProtocol="6.0" NCountPolicy="5">
+				<SkuItem DisplayName="Windows Server 2025 Datacenter" Id="c052f164-cdf6-409a-a0cb-853ba0f0f55a" Gvlk="D764K-2NDRG-47T6Q-P8T8W-YP6DF" />
+				<SkuItem DisplayName="Windows Server 2025 Standard" Id="7dc26449-db21-4e09-ba37-28f2958506a6" Gvlk="TVRH6-WHNXV-R9WG3-9XRFY-MY832" />
+			</KmsItem>
+
 			<KmsItem DisplayName="Windows Server 2022" Id="ef6cfc9f-8c5d-44ac-9aad-de6a2ea0ae03" DefaultKmsProtocol="6.0" NCountPolicy="5">
 				<SkuItem DisplayName="Windows Server 2022 Datacenter" Id="ef6cfc9f-8c5d-44ac-9aad-de6a2ea0ae03" Gvlk="WX4NM-KYWYW-QJJR4-XV3QB-6VM33" />
 				<SkuItem DisplayName="Windows Server 2022 Standard" Id="de32eafd-aaee-4662-9444-c1befb41bde2" Gvlk="VDYBN-27WPP-V4HQT-9VMD4-VMK7H" />
@@ -1012,6 +1021,22 @@
                 <SkuItem DisplayName="Office Visio LTSC Standard 2021" Id="72fce797-1884-48dd-a860-b2f6a5efd3ca" Gvlk="MJVNY-BYWPY-CWV6J-2RKRT-4M8QG" />
                 <SkuItem DisplayName="Office Word LTSC 2021" Id="abe28aea-625a-43b1-8e30-225eb8fbd9e5" Gvlk="TN8H9-M34D3-Y64V9-TR72V-X79KV" />
             </KmsItem>
+
+			<KmsItem DisplayName="Office 2024" Id="8d368fc1-9470-4be2-8d66-90e836cbb051" CanMapToDefaultCsvlk="false" DefaultKmsProtocol="6.0" NCountPolicy="5">
+				<SkuItem DisplayName="Office Access 2024" Id="9e9bceeb-e736-4f26-88de-763f87dcc485" Gvlk="82FTR-NCHR7-W3944-MGRHM-JMCWD" />
+				<SkuItem DisplayName="Office Excel 2024" Id="237854e9-79fc-4497-a0c1-a70969691c6b" Gvlk="F4DYN-89BP2-WQTWJ-GR8YC-CKGJG" />
+				<SkuItem DisplayName="Office Outlook 2024" Id="c8f8a301-19f5-4132-96ce-2de9d4adbd33" Gvlk="D2F8D-N3Q3B-J28PV-X27HD-RJWB9" />
+				<SkuItem DisplayName="Office Powerpoint 2024" Id="3131fd61-5e4f-4308-8d6d-62be1987c92c" Gvlk="TY7XF-NFRBR-KJ44C-G83KF-GX27K" />
+				<SkuItem DisplayName="Office Professional Plus 2024" Id="8d368fc1-9470-4be2-8d66-90e836cbb051" Gvlk="CW94N-K6GJH-9CTXY-MG2VC-FYCWP" />
+				<SkuItem DisplayName="Office Project Professional 2024" Id="f510af75-8ab7-4426-a236-1bfb95c34ff8" Gvlk="FQQ23-N4YCY-73HQ3-FM9WC-76HF4" />
+				<SkuItem DisplayName="Office Project Standard 2024" Id="1777f0e3-7392-4198-97ea-8ae4de6f6381" Gvlk="PD3TT-NTHQQ-VC7CY-MFXK3-G87F8" />
+				<SkuItem DisplayName="Office Publisher 2024" Id="9d3e4cca-e172-46f1-a2f4-1d2107051444" Gvlk="2MW9D-N4BXM-9VBPG-Q7W6M-KFBGQ" />
+				<SkuItem DisplayName="Office Skype for Business 2024" Id="734c6c6e-b0ba-4298-a891-671772b2bd1b" Gvlk="4NKHF-9HBQF-Q3B6C-7YV34-F64P3" />
+				<SkuItem DisplayName="Office Standard 2024" Id="6912a74b-a5fb-401a-bfdb-2e3ab46f4b02" Gvlk="V28N4-JG22K-W66P8-VTMGK-H6HGR" />
+				<SkuItem DisplayName="Office Visio Professional 2024" Id="fa187091-8246-47b1-964f-80a0b1e5d69a" Gvlk="B7TN8-FJ8V3-7QYCP-HQPMV-YY89G" />
+				<SkuItem DisplayName="Office Visio Standard 2024" Id="e06d7df3-aad0-419d-8dfb-0ac37e2bdf39" Gvlk="JMMVY-XFNQC-KK4HK-9H7R3-WQQTV" />
+				<SkuItem DisplayName="Office Word 2024" Id="059834fe-a8ea-4bff-b67b-4d006b5447d3" Gvlk="MQ84N-7VYDM-FXV7C-6K7CC-VFW9J" />
+			</KmsItem>
 		</AppItem>
 
 	</AppItems>
